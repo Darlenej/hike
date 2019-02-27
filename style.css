@@ -1,8 +1,37 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
 
+.navbar{
+    background: darkgrey;
+    display:flex;
+    justify-content: flex-start;
+}
+p{
+   color:white;
+    margin:5px;
+    font-family: 'Muli', sans-serif;
+}
 .container{
     display:flex;
 }
 
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    border-bottom: 2px solid orange;
+    margin-bottom: 40px;
+    /* margin-right:auto; */
+    /* margin-left: auto; */
+    font-size:35px;
+    padding-bottom: 30px;
+    margin:60px;
+    text-align: center;
+        
+    
+}
 .special{
     background-image: url('imgs/desert780x477.jpg');
     width:780px;
@@ -38,6 +67,8 @@
     display:flex;
     justify-content:flex-start;
     align-items:flex-end;
+   
+    
 
 }
 h2 {
