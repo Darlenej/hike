@@ -3,15 +3,74 @@ body{
 }
 
 .navbar{
-    background: darkgrey;
+    background: #333a35;
     display:flex;
     justify-content: flex-start;
 }
 p{
-   color:white;
-    margin:5px;
-    font-family: 'Muli', sans-serif;
+    color:white;
+     margin:5px;
+     font-family: 'Muli', sans-serif;
 }
+
+.logo{
+    display: flex;
+    vertical-align: top;
+    width:50px;
+    height: 50px;
+    margin-right:20px;
+    /* margin-top:20px; */
+}
+    /* background: url('imgs/logo.png'); */
+    /* width:50px; */
+    /* height:450px; */
+
+a {
+    display: block;
+}
+/* unvisted link */
+a:link {
+    color:white;
+}
+/* visited link */
+a:visited {
+    color:whitesmoke;
+}
+/* hover */
+a:hover {
+    color:#eca419;
+}
+.test1{
+    color:white;
+}
+.test1:hover {
+    color:white;
+}
+.test2{
+    color:orange;
+}
+.test2 .fa-facebook:hover{
+    color:white;
+}
+.test3 .fa-pinterest:hover {
+    color:white;
+}
+.test4 .fa-search:hover {
+    color:white;
+}
+
+/* social media */
+.social{
+    display: flex;
+    /* color:white; */
+}
+
+/* .fafa-instagram{
+color:orange;
+    display: inline-block;
+    margin-right: 5px;;
+    font-size: inherit;
+} */
 .container{
     display:flex;
 }
