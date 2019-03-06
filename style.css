@@ -31,33 +31,25 @@ a {
 /* unvisted link */
 a:link {
     color:white;
+    text-decoration: none;
+
 }
 /* visited link */
 a:visited {
     color:whitesmoke;
+    text-decoration: none;
 }
 /* hover */
 a:hover {
     color:#eca419;
 }
-.test1{
-    color:white;
-}
-.test1:hover {
-    color:white;
-}
-.test2{
+.test1 {
     color:orange;
 }
-.test2 .fa-facebook:hover{
+.test1:hover{
     color:white;
 }
-.test3 .fa-pinterest:hover {
-    color:white;
-}
-.test4 .fa-search:hover {
-    color:white;
-}
+
 
 /* social media */
 .social{
