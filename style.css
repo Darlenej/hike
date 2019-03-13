@@ -181,21 +181,33 @@ h2 {
 .gearword
 {color:black}
 
+#top{
+    color:orange;
+    text-align: center;
+    font-size: 30px;
+    font-display: bold;
+    
+}
+
 .container3{
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color:tan;
-    width: 1170px;
-    height: 2000px; 
+    width: 100%;
+    height: 100%; 
     margin-left:35px;
+    /* margin:29px;
+    padding-top:10px;
+    background-color:tan;
+    padding-left:180px; */
 }
     
 .gearitem{
-    /* display:flex; */
-    /* margin-top:20px; */
+    display:flex;
+    margin-top:20px;
     height: 290px;
-    width: 800px;
+    width: 1200px;
     background-color:whitesmoke;
 }
 
@@ -206,9 +218,14 @@ h2 {
     width:200px;
 }
 
-/* .geartxt {
+.geartxt {
 display:flex;
 flex-direction: column;
-justify-content: flex-end;
-height:500px;
-width:300px; */
+margin:60px;
+/* align-content: flex-end;
+justify-content: flex-start; */
+
+}
+.geartxt p{
+    color:black;
+}
